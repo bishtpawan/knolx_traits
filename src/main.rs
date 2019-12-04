@@ -6,42 +6,40 @@ use traits::bound::bound::calculate;
 
 fn main() {
 
-  /// Introduction of the Traits
-
+  /// Use this piece of code to run the concept of Introduction of the Traits
+  
   let introduction = Data { first_number: 20, second_number: 10 };
   introduction.get_result();
 
-
-
-
-
-
-
-}
-
-/*  /// Trait Bound
+  
+  /*  
+  /// Use this piece of code to run the concept of Trait Bound
 
   let bound = Data { first_number: 20, second_number: 10 };
-  calculate(bound);*/
+  calculate(bound);
+  */
 
-/*    /// Trait Object
-    let object = Computation{ types: vec![
-        Box::new(Age{
-            birth_year: 1996,
-            current_year: 2019
-        }),
-        Box::new(Add{
-            first_number: 10,
-            second_number: 20
-        })] };
-    object.run();*/
+  
+  /*    
+  /// Use this piece of code to run the concept of Trait Object
+  
+  let object = Computation{ types: vec![
+    Box::new(Age{
+        birth_year: 1996,
+        current_year: 2019
+    }),
+    Box::new(Add{
+        first_number: 10,
+        second_number: 20
+    })] };
+  object.run();
+ */
 
 
+ /*
+ /// Use this piece of code to run the concept of Trait Bound vs Trait Objects
 
-/*
-/// Trait Bound vs Trait Objects
-
-let object = BoundVsObject{ types: vec![
+ let object = BoundVsObject{ types: vec![
     Box::new(Age{
         birth_year: 1996,
         current_year: 2019
@@ -51,3 +49,6 @@ let object = BoundVsObject{ types: vec![
         second_number: 20
     })] };
 */
+
+}
+
